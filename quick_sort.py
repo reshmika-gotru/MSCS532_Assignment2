@@ -51,7 +51,7 @@ def quick_sort(array, begin, end):
     quick_sort(array, p+1, end)
  
  
-array = [5,1,3,9,8,2,7,4,-50,0,0.0095,-47.5]
+array = [5,1,3,9,8,2,7,4,-50,0,0.0095,-47.5,0.000075]
  
 quick_sort(array, 0, len(array) - 1)
 print(array)
