@@ -59,7 +59,7 @@ def mergeSort(array, l, r):
 		merge(array, l, m, r)
 
 # Sample code to test above
-array = [12, 11, 13, 5, 6, 7, 0, 250, -500, 58.5,0.00028]
+array = [12, 11, 13, 5, 6, 7, 0, 250, -500, 58.5,0.00028,0.0000089]
 n = len(array)
 print("Given array is")
 for i in range(n):
